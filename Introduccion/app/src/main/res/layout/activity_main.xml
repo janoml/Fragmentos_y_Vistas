@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -11,8 +11,9 @@
         android:name="cl.nextu.introduccinfragmentosyvistas.Ej1Fragmento"
         android:layout_width="400dp"
         android:layout_height="400dp"
+        android:layout="@layout/ej1_fragmento"
         tools:layout="@layout/ej1_fragmento"
-        tools:layout_editor_absoluteX="-8dp"
-        tools:layout_editor_absoluteY="35dp" />
+        android:layout_centerInParent="true"
+        />
 
-</android.support.constraint.ConstraintLayout>
+</RelativeLayout>
