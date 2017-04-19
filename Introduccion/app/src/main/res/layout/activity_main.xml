@@ -6,13 +6,13 @@
     android:layout_height="match_parent"
     tools:context="cl.nextu.introduccinfragmentosyvistas.MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+    <fragment
+        android:id="@+id/fragment"
+        android:name="cl.nextu.introduccinfragmentosyvistas.Ej1Fragmento"
+        android:layout_width="400dp"
+        android:layout_height="400dp"
+        tools:layout="@layout/ej1_fragmento"
+        tools:layout_editor_absoluteX="-8dp"
+        tools:layout_editor_absoluteY="35dp" />
 
 </android.support.constraint.ConstraintLayout>
