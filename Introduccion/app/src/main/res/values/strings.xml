@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Introducción Fragmentos y Vistas</string>
+    <string name="ej1_fragmento">Ciclo de vida de un fragmento</string>
 </resources>
