@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <fragment
+        android:id="@+id/fragment2"
+        android:name="android.support.v4.app.ListFragment"
+        android:layout_width="400dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        tools:layout="@layout/fragmento_lista" />
+
+    <fragment
+        android:id="@+id/fragment3"
+        android:name="cl.nextu.multifragmentos.DescripcionVersiones"
+        android:layout_width="630dp"
+        android:layout_height="match_parent"
+        tools:layout="@layout/descripcion_versiones"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/fragment2" />
+</RelativeLayout>
