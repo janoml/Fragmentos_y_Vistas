@@ -10,7 +10,7 @@
         android:id="@+id/fragment"
         android:name="cl.nextu.multifragmentos.FragmentoLista"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
         tools:layout="@layout/fragmento_lista" />
