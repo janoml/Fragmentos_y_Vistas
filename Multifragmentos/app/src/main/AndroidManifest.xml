@@ -19,3 +19,7 @@
     </application>
 
 </manifest>
+<!--
+<activity android:name=".MainActivity" android:screenOrientation="portrait">
+
+-->
