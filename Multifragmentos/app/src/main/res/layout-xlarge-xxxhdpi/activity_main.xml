@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <fragment
+        android:id="@+id/fragment7"
+        android:name="cl.nextu.multifragmentos.FragmentoLista"
+        android:layout_width="600dp"
+        android:layout_height="300dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        tools:layout="@layout/fragmento_lista" />
+
+    <fragment
+        android:id="@+id/fragment8"
+        android:name="cl.nextu.multifragmentos.LogoVersiones"
+        android:layout_width="600dp"
+        android:layout_height="300dp"
+        tools:layout="@layout/logo_versiones"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true" />
+
+    <fragment
+        android:id="@+id/fragment9"
+        android:name="cl.nextu.multifragmentos.DescripcionVersiones"
+        android:layout_width="600dp"
+        android:layout_height="300dp"
+        tools:layout="@layout/descripcion_versiones"
+        android:layout_marginBottom="64dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="16dp" />
+
+    <fragment
+        android:id="@+id/fragment10"
+        android:name="cl.nextu.multifragmentos.VersionesAndroid"
+        android:layout_width="600dp"
+        android:layout_height="300dp"
+        tools:layout="@layout/versiones_android"
+        android:layout_alignTop="@+id/fragment9"
+        android:layout_alignParentEnd="true" />
+
+
+</RelativeLayout>
