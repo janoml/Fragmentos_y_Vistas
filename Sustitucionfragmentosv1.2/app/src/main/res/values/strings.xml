@@ -1,3 +1,4 @@
 <resources>
-    <string name="app_name">Sustitución de fragmentos v1.2</string>
+    <string name="app_name">Lista de autos de lujo</string>
+    <string name="marca_ferrari">Marca Ferrari</string>
 </resources>
