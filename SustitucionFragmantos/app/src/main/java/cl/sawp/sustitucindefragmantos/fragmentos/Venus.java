@@ -24,4 +24,11 @@ public class Venus extends Fragment {
         return view;
 
     }
+    @Override
+    public void onResume() {
+        super.onResume();
+        getActivity().setTitle("Venus");
+    }
+
+
 }

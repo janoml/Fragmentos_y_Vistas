@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Inicio</string>
+
+    <string-array name="opciones">
+        <item>Login</item>
+        <item>Ayuda</item>
+        <item>Sobre nosotros</item>
+    </string-array>
+
+</resources>
